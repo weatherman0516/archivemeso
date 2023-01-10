@@ -151,6 +151,7 @@ class GetMesoImages:
 # --------------------------------------------------------------------------------------
 
 #groups = [surface, upper_air, thermodynamics, wind_shear, composite_indices, multi_parameter_fields, heavy_rain, winter_weather, fire_weather, classic, beta]
-groups = [surface, upper_air, thermodynamics, wind_shear, composite_indices, multi_parameter_fields, heavy_rain, winter_weather]
+#groups = [surface, upper_air, thermodynamics, wind_shear, composite_indices, multi_parameter_fields, heavy_rain, winter_weather]
+groups = [surface, upper_air, thermodynamics, wind_shear, composite_indices, multi_parameter_fields, heavy_rain]
 
-test = GetMesoImages('20221223_16','20221223_18','21',groups)
+test = GetMesoImages('20210924_15','20210924_22','18',groups)
