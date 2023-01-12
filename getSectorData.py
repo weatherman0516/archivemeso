@@ -4,29 +4,29 @@ surface = [
 ['thet', 'MSL Press/Theta-e/Wind'], ['mcon', 'Moisture Convergence'], ['thea', 'Theta-E Advection'],
 ['mxth', 'Mixing Ratio / Theta'], ['icon', 'Inst Contraction Rate'], ['trap', 'Fluid Trapping'],
 ['vtm', 'Velocity Tensor Mag'], ['dvvr', 'Sfc Div and Vort'], ['def', 'Deformation / Axis of Dilitation'],
-['pchg', '2hr Press Change'], ['temp_chg', '3hr Temp Change'], ['dwpt_chg', '3hr Dewpoint Change'], 
+['pchg', '2hr Press Change'], ['temp_chg', '3hr Temp Change'], ['dwpt_chg', '3hr Dewpoint Change'],
 ['mixr_chg', '3hr 100mb MixR Change'], ['thte_chg', '3hr Thetae Change']]
 
-upper_air =[['925mb', '925mb Analysis'], 
-['850mb2', '850mb Analysis'], ['850mb', '850mb Analysis v2'], ['700mb', '700mb Analysis'], ['500mb', '500mb Analysis'], 
-['300mb', '300mb Analysis'], ['dlcp', 'Deep Moist Conv'], ['tadv_925', '925mb Temp Adv'], ['tadv', '850mb Temp Adv'], 
-['7tad', '700mb Temp Adv'], ['sfnt', 'Surface FGEN'], ['9fnt', '925mb FGEN'], ['8fnt', '850mb FGEN'], ['7fnt', '700mb FGEN'], 
-['epvl', '850 fgen & EPV'], ['epvm', '700 fgen & EPV'], ['98ft', '925-850mb FGEN'], ['857f', '850-700mb FGEN'], 
-['75ft', '700-500mb FGEN'], ['vadv', '700-400mb Diff PVA'], ['padv', '400-250mb Pot Vort Adv'], ['ddiv', '850-250mb Diff Div'], 
+upper_air =[['925mb', '925mb Analysis'],
+['850mb2', '850mb Analysis'], ['850mb', '850mb Analysis v2'], ['700mb', '700mb Analysis'], ['500mb', '500mb Analysis'],
+['300mb', '300mb Analysis'], ['dlcp', 'Deep Moist Conv'], ['tadv_925', '925mb Temp Adv'], ['tadv', '850mb Temp Adv'],
+['7tad', '700mb Temp Adv'], ['sfnt', 'Surface FGEN'], ['9fnt', '925mb FGEN'], ['8fnt', '850mb FGEN'], ['7fnt', '700mb FGEN'],
+['epvl', '850 fgen & EPV'], ['epvm', '700 fgen & EPV'], ['98ft', '925-850mb FGEN'], ['857f', '850-700mb FGEN'],
+['75ft', '700-500mb FGEN'], ['vadv', '700-400mb Diff PVA'], ['padv', '400-250mb Pot Vort Adv'], ['ddiv', '850-250mb Diff Div'],
 ['ageo', '300mb Jet Circ'], ['500mb_chg', '12hr H5 chg'], ['trap_500', 'Fluid Trapping (H500)'], ['trap_250', 'Fluid Trapping (H250)']]
 
-thermodynamics = [['sbcp', 'SBCAPE'], ['mlcp', 'MLCAPE'], ['mucp', 'MUCAPE'], ['eltm', 'EL Temp/MUCAPE/MUCIN'], ['ncap', 'CAPE - Normalized'], 
-['dcape', 'CAPE - Downdraft'], ['muli', 'Sfc Based LI'], ['laps', 'Mid-Level Lapse Rates'], ['lllr', 'Low-Level Lapse Rates'], 
-['maxlr', 'Max 2-6 km AGL Lapse Rate'], ['lclh', 'LCL hght'], ['lfch', 'LFC hght'], ['lfrh', 'LCL-LFC RH'], 
-['sbcp_chg', '3-hour SBCAPE Change'], ['sbcn_chg', '3-hour SBCIN Change'], ['mlcp_chg', '3-hour MLCAPE Change'], 
-['mucp_chg', '3-hour MUCAPE Change'], ['lllr_chg', '3-hour Low LR Change'], ['laps_chg', '6-hour Mid LR Change'], 
+thermodynamics = [['sbcp', 'SBCAPE'], ['mlcp', 'MLCAPE'], ['mucp', 'MUCAPE'], ['eltm', 'EL Temp/MUCAPE/MUCIN'], ['ncap', 'CAPE - Normalized'],
+['dcape', 'CAPE - Downdraft'], ['muli', 'Sfc Based LI'], ['laps', 'Mid-Level Lapse Rates'], ['lllr', 'Low-Level Lapse Rates'],
+['maxlr', 'Max 2-6 km AGL Lapse Rate'], ['lclh', 'LCL hght'], ['lfch', 'LFC hght'], ['lfrh', 'LCL-LFC RH'],
+['sbcp_chg', '3-hour SBCAPE Change'], ['sbcn_chg', '3-hour SBCIN Change'], ['mlcp_chg', '3-hour MLCAPE Change'],
+['mucp_chg', '3-hour MUCAPE Change'], ['lllr_chg', '3-hour Low LR Change'], ['laps_chg', '6-hour Mid LR Change'],
 ['skewt', 'Skew-T Maps']]
 
-wind_shear = [['eshr', 'Bulk Shear - Effective'], ['shr6', 'Bulk Shear - Sfc-6km'], ['shr8', 'Bulk Shear - Sfc-8km'], ['shr3', 'Bulk Shear - Sfc-3km'], 
-['shr1', 'Bulk Shear - Sfc-1km'], ['brns', 'BRN Shear'], ['effh', 'SR Helicity - Effective'], ['srh3', 'SR Helicity - Sfc-3km'], 
-['srh1', 'SR Helicity - Sfc-1km'], ['srh5', 'SR Helicity - Sfc-500m'], ['llsr', 'SR Wind - Sfc-2km'], ['mlsr', 'SR Wind - 4-6km'], 
-['ulsr', 'SR Wind - 9-11km'], ['alsr', 'SR Wind - Anvil Level'], ['mnwd', '850-300mb Mean Wind'], ['xover', '850 and 500mb Winds'], 
-['srh3_chg', '3hr Sfc-3km SR Helicity Change'], ['shr1_chg', '3hr Sfc-1km Bulk Shear Change'], ['shr6_chg', '3hr Sfc-6km Bulk Shear Change'], 
+wind_shear = [['eshr', 'Bulk Shear - Effective'], ['shr6', 'Bulk Shear - Sfc-6km'], ['shr8', 'Bulk Shear - Sfc-8km'], ['shr3', 'Bulk Shear - Sfc-3km'],
+['shr1', 'Bulk Shear - Sfc-1km'], ['brns', 'BRN Shear'], ['effh', 'SR Helicity - Effective'], ['srh3', 'SR Helicity - Sfc-3km'],
+['srh1', 'SR Helicity - Sfc-1km'], ['srh5', 'SR Helicity - Sfc-500m'], ['llsr', 'SR Wind - Sfc-2km'], ['mlsr', 'SR Wind - 4-6km'],
+['ulsr', 'SR Wind - 9-11km'], ['alsr', 'SR Wind - Anvil Level'], ['mnwd', '850-300mb Mean Wind'], ['xover', '850 and 500mb Winds'],
+['srh3_chg', '3hr Sfc-3km SR Helicity Change'], ['shr1_chg', '3hr Sfc-1km Bulk Shear Change'], ['shr6_chg', '3hr Sfc-6km Bulk Shear Change'],
 ['hodo', 'Hodograph Map']]
 
 composite_indices = [['scp', 'Supercell Composite'], ['stor', 'Sig Tor (fixed)'], ['stpc', 'Sig Tor (eff)'], ['stpc5', 'Sig Tor (0-500m SRH)'],
@@ -50,14 +50,14 @@ fire_weather = [ ['sfir', 'Sfc RH / T / Wind'], ['fosb', 'Fosberg Index'], ['lha
 
 classic = [['ttot', 'Total Totals'], ['show', 'Showalter Index'], ['kidx', 'K Index']]
 
-beta = [['sherbe', 'SHERBE'], ['moshe', 'Modified SHERBE'], ['cwasp', 'CWASP'], 
-['tehi', 'Tornadic 0-1 km EHI'], ['tts', 'Tornadic Tilting and Stretching parameter (TTS)'], ['ptstpe', 'Conditional probability of EF0+ tornadoes'], 
+beta = [['sherbe', 'SHERBE'], ['moshe', 'Modified SHERBE'], ['cwasp', 'CWASP'],
+['tehi', 'Tornadic 0-1 km EHI'], ['tts', 'Tornadic Tilting and Stretching parameter (TTS)'], ['ptstpe', 'Conditional probability of EF0+ tornadoes'],
 ['pstpe', 'Conditional probability of EF2+ tornadoes'], ['pvstpe', 'Conditional probability of EF4+ tornadoes']]
 
 #######################################################################################################################
 # Set directory in which image directories and images will be created
 #--------------------------------------------------------------------
-baseDir = "U:/My Documents/GitHub/archivemeso"
+baseDir = "/home/weatherman0516/webmesoarchive/media"
 #--------------------------------------------------------------------
 
 from datetime import datetime,timedelta
@@ -65,7 +65,6 @@ import urllib.request
 import os
 import shutil
 
-spcDir = "https://www.spc.noaa.gov/exper/mesoanalysis/"
 class GetMesoImages:
     """
     startDateTime
@@ -82,15 +81,21 @@ class GetMesoImages:
             list of lists of strings. options are:
                 [surface, upper_air, thermodynamics, wind_shear, composite_indices,
                 multi_parameter_fields, heavy_rain, winter_weather, fire_weather, classic, beta]
+    locBool
+            True: if obtaining images from a case requested of SPC
+                    -https://www.spc.noaa.gov/exper/mesoanalysis/archive/
+            False: if searching to see if images for a date already exist in their main directory
+                    -https://www.spc.noaa.gov/exper/mesoanalysis/
     """
 
-    def __init__(self,startDateTime,endDateTime,sector,parm_groups):
+    def __init__(self,startDateTime,endDateTime,sector,parm_groups,locBool):
         self.startDateTime = startDateTime
         self.endDateTime = endDateTime
+        self.locBool = locBool
         self.date_hour_list = self.make_date_hour_list()
         self.sector = 's' + sector
-        self.urlpre = f'https://www.spc.noaa.gov/exper/mesoanalysis/s{self.sector}'
         self.parm_groups = parm_groups
+        self.urlpre = self.set_url_pre()
         self.graphics_list = self.make_graphics_list()
         self.download_and_store_images()
 
@@ -99,10 +104,19 @@ class GetMesoImages:
         starting_datetime = datetime.strptime(self.startDateTime,"%Y%m%d_%H")
         ending_datetime = datetime.strptime(self.endDateTime,"%Y%m%d_%H")
         while starting_datetime <= ending_datetime:
-            dt_str = datetime.strftime(starting_datetime,'%y%m%d%H')
+            if self.locBool:
+                dt_str = datetime.strftime(starting_datetime,'%y%m%d_%H')
+            else:
+                dt_str = datetime.strftime(starting_datetime,'%y%m%d%H')
             dateList.append(dt_str)
             starting_datetime = starting_datetime + timedelta(hours=1)
         return dateList
+
+    def set_url_pre(self):
+        if self.locBool:
+            return f'https://www.spc.noaa.gov/exper/mesoanalysis/archive/'
+        else:
+            return f'https://www.spc.noaa.gov/exper/mesoanalysis/'
 
     def make_graphics_list(self):
         graphics_list = []
@@ -119,22 +133,27 @@ class GetMesoImages:
             src = os.path.join(os.getcwd(),'spc_meso_graphics_viewer.html')
             try:
                 if not os.path.exists(imageDir):
-                    os.mkdir(imageDir)                
+                    os.mkdir(imageDir)
             except:
                 print(f'Can not make {imageDir}')
             try:
-                shutil.copy2(src,imageDir)       
+                shutil.copy2(src,imageDir)
             except:
                 print(f'Can not copy html file')
             for gr in self.graphics_list:
-                #Example: https://www.spc.noaa.gov/exper/mesoanalysis/s16/pmsl/pmsl_22102521.gif
-                source_filename = f'{gr}_{dt}.gif'
-                dest_filename = f'{gr}.gif'
-                fullURL = f'{spcDir}{self.sector}/{gr}/{source_filename}'
-                #print(fullURL)
+                if self.locBool:
+                    #Example: https://www.spc.noaa.gov/exper/mesoanalysis/archive/yymmdd_hh/pmsl.gif
+                    source_filename = f'{gr}.gif'
+                    dest_filename = f'{gr}.gif'
+                    fullURL = f'{self.urlpre}{dt}/{source_filename}'
+                else:
+                    #Example: https://www.spc.noaa.gov/exper/mesoanalysis/s16/pmsl/pmsl_22102521.gif
+                    source_filename = f'{gr}_{dt}.gif'
+                    dest_filename = f'{gr}.gif'
+                    fullURL = f'{self.urlpre}{self.sector}/{gr}/{source_filename}'
+                print(fullURL)
                 # all downloaded files will be renamed to remove date and hour to standardize names
                 destination_filepath = os.path.join(imageDir,dest_filename)
-                #print(destination_filepath)
                 try:
                     opener = urllib.request.build_opener()
                     opener.addheaders = [('User-agent', 'Mozilla/5.0')]
@@ -142,7 +161,7 @@ class GetMesoImages:
                     urllib.request.urlretrieve(fullURL,destination_filepath)
                 except Exception as e:
                     print(f'could not download {source_filename}')
-                
+
         return
 
 
@@ -151,7 +170,6 @@ class GetMesoImages:
 # --------------------------------------------------------------------------------------
 
 #groups = [surface, upper_air, thermodynamics, wind_shear, composite_indices, multi_parameter_fields, heavy_rain, winter_weather, fire_weather, classic, beta]
-#groups = [surface, upper_air, thermodynamics, wind_shear, composite_indices, multi_parameter_fields, heavy_rain, winter_weather]
 groups = [surface, upper_air, thermodynamics, wind_shear, composite_indices, multi_parameter_fields, heavy_rain]
 
-test = GetMesoImages('20210924_15','20210924_22','18',groups)
+test = GetMesoImages('20210924_22','20210924_22','18',groups,False)
